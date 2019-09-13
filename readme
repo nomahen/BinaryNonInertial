@@ -1,0 +1,6 @@
+##########################################
+## Binary Non-Inertial Gravity Module   ##
+## Nicholas Kaaz 2019                   ##
+##########################################
+
+This is a FLASH 4.5 Gravity module for a binary system in the non-inertial frame. It includes source terms for centrifugal and coriolis forces. You can give a semimajor axis and a mass ratio, and the binary will rotating with orbital angular momentum in the z direction and semimajor axis aligned in the x direction (will allow modifications in later updates). This was built for the "binary bondi" simulation module. Currently, gravity is not softened; if the binary doesn't have an absorbing boundary condition that can cause problems (will be added later). 

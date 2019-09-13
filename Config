@@ -1,0 +1,9 @@
+#	Configuration file for the gravitational physics module:
+#	gravitational field caused by binary of total mass (totmass)
+#       with mass ratio (q) and semimajor axis (sma). 
+#       Assumes circular orbit in non-inertial reference frame
+
+PARAMETER totmass      REAL    10000.
+PARAMETER q            REAL    1.
+PARAMETER sma          REAL    1.
+PARAMETER gravsoft     REAL    0.001
